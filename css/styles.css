@@ -7,6 +7,7 @@ body{
 }
 .link{
     text-decoration: none;
+    font-style: normal;
 }
 .list{
     list-style: none;
