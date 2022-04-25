@@ -1,0 +1,197 @@
+:root{
+  --o-color-hover: #2196F3;
+}
+body{
+    font-family: "Roboto", sans-serif; 
+    color: #212121;
+}
+.link{
+    text-decoration: none;
+}
+.list{
+    list-style: none;
+}
+.logo{
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--o-color-hover);
+}
+.logo-dark{
+    color: #212121;
+}
+.menu-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--o-color-hover);
+    cursor: pointer;
+}
+.header-tel{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.header-tel:focus,
+.header-tel:hover{
+    color: var(--o-color-hover);
+}
+.header-email {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.header-email:hover,
+.header-email:focus {
+    color: var();
+}
+/*=====/HEADER=====*/
+
+/*=====NAV-BUTTON=====*/
+.nav-button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.625;
+text-align: center;
+letter-spacing: 0.03em;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.nav-button:hover,
+.nav-button:focus{
+    color: #ffffff;
+    background: var(--o-color-hover);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*=====/NAV-BUTTON=====*/
+
+/*=====HERO=====*/
+.hero-h1{
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #ffffff;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+.hero-modal-button{
+    background: var(--o-color-hover);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.hero-modal-button:hover{
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.hero-modal-button-text{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+.hero{
+    background: #2F303A;
+}
+/*=====/HERO=====*/
+
+/*=====our-advantages=====*/
+.our-advantages-h3{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.our-advantages-text{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*=====/our-advantages=====*/
+
+/*=====SERVICES-and-TEAM=====*/
+.services-team-h2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-names{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+    letter-spacing: 0.03em;
+}
+.team-member-specialization{
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+/*=====/SERVICES-and-TEAM=====*/
+
+/*=====SERVICES-page-2=====*/
+.services-2-h3{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.services-2-text{
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em; 
+    color: #757575;
+}
+/*=====/SERVICES-page-2=====*/
+
+/*=====FOOTER=====*/
+.logo-light {
+    color: #ffffff;
+}
+.contact-address{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+
+}
+.footer-contact{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.footer{
+    background: #2F303A;
+}

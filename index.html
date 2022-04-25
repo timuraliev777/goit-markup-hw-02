@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title lang="en">Web Studio</title>
+    <link rel="stylesheet" href="./css/styles.css"
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!--Навигационное меню не совпаадет с контентом на лендинге.
+        Чтоб показать что я понял тему, свяжу "студия - преимущества" "портфолио - чем мы занимаемся"-->
+        <nav>
+            <a lang="en" class="logo link" href="">Web<span class="logo-dark">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-item">
+                    <a class="menu-link link" href="#benefits">Студия</a></li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="#services">Портфолио</a></li>
+                <li class="menu-item">
+                    <a class="menu-link link" href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+        <ul class="menu-contact list">
+            <li><a class="header-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="header-email link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+    </header>
+    <main>
+        <section class="hero">
+            <h1 class="hero-h1">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-modal-button" type="button"><p class="hero-modal-button-text">Заказать услугу</p></button>
+        </section>
+        <section id="benefits" class="our-advantages">
+            <!--Блок наши преимущества. Сам дизайн и структура лендинга очень странная. 
+                Например раздел "чем мы занимаемся" абсолютно не понятен. Нет даже подписей к картинкам.
+                Ну и естесвенно нет смысла в текстах.
+                Я бы добавил заголовок h2 к этой секции - наши преимущества
+                Так же блоки преимущества и "чем мы занимаемся" можно сделать одной секцией, 
+                но мне кажется что лучше разделить
+            <section>-->
+        <ul class="list">
+            <li>
+                <h3 class="our-advantages-h3">Внимание к деталям</h3>
+                <p class="our-advantages-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            </li>
+            <li>
+                <h3 class="our-advantages-h3">Пунктуальность</h3>
+                <p class="our-advantages-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+            </li>
+            <li>
+                <h3 class="our-advantages-h3">Планирование</h3>
+                <p class="our-advantages-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+            </li>
+            <li>
+                <h3 class="our-advantages-h3">Современные технологии</h3>
+                <p class="our-advantages-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            </li>
+        </ul>
+        </section>
+        <section id="services">
+            <h2 class="services-team-h2">Чем мы занимаемся</h2>
+            <!--Изображения прогнал через сервис squoosh (75%), но качество меня бы не устроило
+            из содержимого фото не понятно чем занимается студия-->
+            <ul class="list">
+                <li>
+                    <a href=""><img src="./imeges/services/service_1.jpg" alt="Мужчина набирает код" width="370" height="294"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imeges/services/service_2.jpg" alt="Девушка держит телефон" width="370" height="294"></a>
+                </li>
+                <li>
+                    <a href=""><img src="./imeges/services/service_3.jpg" alt="Планшет в руках" width="370" height="294"></a>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h2 class="services-team-h2">Наша команда</h2>
+            <ul class="list">
+                <li>
+                    <a href=""><img src="./imeges/teem/igor_demyanenko.jpg" alt="человек улыбается на фото" width="270" height="260"></a>
+                    <h3 class="team-names">Игорь Демьяненко</h3>
+                    <p class="team-member-specialization" lang="en">Product Designer</p>
+                </li>
+                <li>
+                    <a href=""><img src="./imeges/teem/olga_repina.jpg" alt="человек улыбается на фото" width="270" height="260"></a>
+                    <h3 class="team-names">Ольга Репина</h3>
+                    <p class="team-member-specialization" lang="en">Frontend Developer</p>
+                </li>
+                <li>
+                    <a href=""><img src="./imeges/teem/nikolay_tarasov.jpg" alt="человек улыбается на фото" width="270" height="260"></a>
+                    <h3 class="team-names">Николай Тарасов</h3>
+                    <p class="team-member-specialization" lang="en">Marketing</p>
+                </li>
+                <li>
+                    <a href=""><img src="./imeges/teem/michael_ermakov.jpg" alt="человек улыбается на фото" width="270" height="260"></a>
+                    <h3 class="team-names">Михаил Ермаков</h3>
+                    <p class="team-member-specialization" lang="en">UI Designer</p>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer id="contact" class="footer">
+        <p>
+            <a lang="en" class="link logo" href="">Web<span class="logo-light">Studio</span></a>
+        </p>
+        <address>
+        <ul class="list">
+            <!--Адррес, вместо проспекта ищет бульвар, вставил бульвар-->
+            <li><a class="link contact-address" href="https://goo.gl/maps/tN3YWLiFVPRoUEJ97" target="_blank" rel="noreferrer noopener">
+                г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a class="link footer-contact" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="link footer-contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        </ul>
+        </address>
+    </footer>
+</body>
+</html>
