@@ -55,7 +55,7 @@ body{
 
 .header-email:hover,
 .header-email:focus {
-    color: var();
+    color: var(--o-color-hover);
 }
 /*=====/HEADER=====*/
 
@@ -97,6 +97,14 @@ border-radius: 4px;
     top: 280px;
 }
 .hero-modal-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
     background: var(--o-color-hover);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -106,16 +114,6 @@ border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
-}
-.hero-modal-button-text{
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
 }
 .hero{
     background: #2F303A;
